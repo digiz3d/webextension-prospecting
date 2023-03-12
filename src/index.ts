@@ -32,6 +32,7 @@ function main() {
       }
     }
   })
+  if (result) console.log('result', result)
 }
 
 setInterval(main, 1000)
