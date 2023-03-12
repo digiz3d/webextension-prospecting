@@ -1,0 +1,23 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "dist/index.js",
+  "author": "digiz3d",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch --mode=production"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "esbuild": "^0.17.11",
+    "esbuild-loader": "^3.0.1",
+    "prettier": "^2.8.4",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
